@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../media/img/Frame\ 36.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "Next Art";
+    src: url(../media/font/NEXT\ ART_Bold.otf);
+
+}
+
+.wrap{
+    width: 60hv;
+    margin: 0px;
+}
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    flex-direction: column;
+}
+
+
+
+.header p{
+    color: aliceblue;
+    margin: auto;
+    font-size: 30px;
+}
+
+.title {
+    font-size: 60px;
+    color: yellow;
+    text-shadow: #5c5303ce 1px 1px 0, #5c5303ce 2px 2px 0, 
+    #5c5303ce 3px 3px 0, #5c5303ce 4px 4px 0, 
+    #5c5303ce 5px 5px 0;
+    text-align: center;
+}
+
+.question {
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: left;
+}
+.definition {
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 660px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center
+    
+}
+
+.circle {
+    display: inline-block;
+    width: 20px; /* размер кружка */
+    height: 20px; /* размер кружка */
+    background-color: yellow;
+    border-radius: 50%; /* делает кружок круглым */
+    vertical-align: middle; /* выравнивание по вертикали */
+    margin-right: 5px; /* отступ между кружком и текстом */
+}
+
+
+.text {
+    color: white; /* цвет текста */
+    font-size: 20px; /* размер текста */
+}
+
+.circle, .text{
+    display: flex;
+    flex-direction: column;
+}
